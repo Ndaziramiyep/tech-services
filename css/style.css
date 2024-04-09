@@ -1,3 +1,11 @@
-*{
-    margin: 0;
+/* Add your custom styles here */
+.product-img {
+  max-width: 100%;
+  height: auto;
+}
+.product-card {
+  transition: all 0.3s ease;
+}
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
