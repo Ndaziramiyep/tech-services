@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service pro</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/fontawesome.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom styles here */
+    .product-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .product-card {
+      transition: all 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-    
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
@@ -23,6 +35,16 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+              <a class="dropdown-item" href="#services">General <img src="./img/service.png" width="50px" alt="Web Design"></a>
+              <a class="dropdown-item" href="#">Graphic Design <img src="./img/service.png" width="50px" alt="Graphic Design"></a>
+              <a class="dropdown-item" href="#">Digital Marketing <img src="./img/service.png" width="50px" alt="Digital Marketing"></a>
+            </div>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Shop</a>
           </li>
@@ -32,17 +54,30 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-   <!-- Main Content -->
-   <div class="container mt-5">
+  <!-- Main Content -->
+  <div class="container mt-5">
     <div class="row">
-      <div class="col-md-6">
-        <h1>Welcome to our E-Commerce Store</h1>
-        <p class="lead">Browse our collection of products and find what you need.</p>
+      <div class="col-md-6 mb-3">
+        <h1>Welcome to our E-Commerce Store Services</h1>
+        <p class="lead">Browse our collection of products and find what you need.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio quaerat 
+          beatae consequuntur odit reprehenderit inventore dolorum, 
+          repellendus magnam saepe aliquid quisquam quasi error quia tenetur porro est dolore impedit.
+        </p>
         <a href="#" class="btn btn-primary">Shop Now</a>
       </div>
       <div class="col-md-6">
@@ -52,34 +87,87 @@
   </div>
 
   <div class="container mt-5">
-    <h2 class="text-center mb-4">Featured Products</h2>
+    <h2 class="text-center mb-4" id="services">Featured Services</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card product-card">
           <img src="./img/service.png" class="card-img-top product-img" alt="Product 1">
           <div class="card-body">
-            <h5 class="card-title">Product 1</h5>
-            <p class="card-text">Description of Product 1.</p>
+            <h5 class="card-title">Service 1</h5>
+            <p class="card-text">Description of Service 1.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
             <a href="#" class="btn btn-primary">Add to Cart</a>
           </div>
         </div>
       </div>
+
       <div class="col-md-4 mb-4">
         <div class="card product-card">
           <img src="./img/service.png" class="card-img-top product-img" alt="Product 2">
           <div class="card-body">
-            <h5 class="card-title">Product 2</h5>
-            <p class="card-text">Description of Product 2.</p>
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Description of Service 2.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
             <a href="#" class="btn btn-primary">Add to Cart</a>
           </div>
         </div>
       </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="./img/service.png" class="card-img-top product-img" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Description of Service 2.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="./img/service.png" class="card-img-top product-img" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Description of Service 2.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="./img/service.png" class="card-img-top product-img" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Description of Service 2.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
       <div class="col-md-4 mb-4">
         <div class="card product-card">
           <img src="./img/service.png" class="card-img-top product-img" alt="Product 3">
           <div class="card-body">
-            <h5 class="card-title">Product 3</h5>
-            <p class="card-text">Description of Product 3.</p>
+            <h5 class="card-title">Service 3</h5>
+            <p class="card-text">Description of Service 3.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+               Et aliquid corrupti soluta obcaecati nihil doloribus tenetur possimus, minima tempore repudiandae!
+            </p>
             <a href="#" class="btn btn-primary">Add to Cart</a>
           </div>
         </div>
@@ -87,7 +175,9 @@
     </div>
   </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

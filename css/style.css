@@ -9,3 +9,34 @@
 .product-card:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+/* // dropdown -------------------------- */
+
+/* Add your custom styles here */
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  z-index: 1;
+  display: none;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-item img {
+  width: 100%;
+  height: auto;
+}
+.jumbotron {
+  background-image: url('./img/service.png');
+  background-size: cover;
+  color: #ffffff;
+}
+.service-card {
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
