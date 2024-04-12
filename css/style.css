@@ -40,3 +40,47 @@ footer {
   color: #fff;
   padding: 20px 0;
 }
+
+ /* -------------------- Services section------------ */
+
+ body #service {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.service-section {
+  padding: 50px 0;
+}
+
+.service-item {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.service-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.service-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service-description {
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
