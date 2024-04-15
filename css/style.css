@@ -117,3 +117,21 @@ footer {
 .navbar-nav .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+/* ------------------ Home footer style ------------- */
+.footer {
+  background-color: lightgrey;
+  height: 135px;
+  color: #000;
+  padding: 20px 0;
+}
+.footer a {
+  color: #fff;
+  margin-right: 10px;
+}
+.footer a:hover {
+  color: #007bff;
+}
+.social-icons img {
+  width: 30px;
+}
