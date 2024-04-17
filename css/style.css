@@ -119,19 +119,42 @@ footer {
 }
 
 /* ------------------ Home footer style ------------- */
-.footer {
+.home-footer {
   background-color: lightgrey;
   height: 135px;
   color: #000;
   padding: 20px 0;
 }
-.footer a {
+.home-footer a {
   color: #fff;
   margin-right: 10px;
 }
-.footer a:hover {
+.home-footer a:hover {
   color: #007bff;
 }
 .social-icons img {
   width: 30px;
+}
+
+
+/* ------------------------------------ footer footer ---------------------- */
+
+footer {
+  background-color: rgb(44, 41, 41);
+  padding: 30px 0;
+  color: white;
+}
+.footer-card {
+  background-color: transparent;
+  border: none;
+}
+.footer-card .card-body {
+  padding: 0;
+}
+.footer-card .card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer-card .card-text {
+      font-size: 14px;
 }
